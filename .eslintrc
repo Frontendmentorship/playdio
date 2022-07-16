@@ -29,7 +29,9 @@
             {
               "endOfLine": "auto"
             }
-        ]
+        ],
+        "react/prop-types": "off",
+        "react/jsx-props-no-spreading": "off"
     },
     "parser": "@babel/eslint-parser"
 }
