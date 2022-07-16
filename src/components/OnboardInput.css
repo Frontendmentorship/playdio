@@ -1,0 +1,40 @@
+.onboarding.input-group {
+    width: 100%;
+    position: relative;
+    padding: 0;
+}
+
+.onboarding.input-group .input-group__input,
+.onboarding.input-group .input-group__label {
+    width: 100%;
+    display: block;
+}
+
+.onboarding.input-group > .input-group__label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #313343;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 13px 6px;
+}
+
+.onboarding.input-group > .input-group__input {
+    color: #7C7C7C;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: inherit;
+    height: 100%;
+    width: 100%;
+    padding: 28px 13px 10px;
+    border: none;
+    border-radius: 0.25rem;
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+    background-color: #F6F9FB;
+}
