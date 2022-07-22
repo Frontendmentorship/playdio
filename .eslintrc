@@ -1,37 +1,30 @@
 {
-    "env": {
-        "browser": true,
-        "es2021": true
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb", "airbnb/hooks", "plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "extends": [
-        "plugin:react/recommended",
-        "airbnb",
-        "airbnb/hooks",
-        "plugin:prettier/recommended"
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  },
+  "plugins": ["react"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
     ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 6,
-        "sourceType": "module",
-        "requireConfigFile": false,
-        "babelOptions": {
-            "presets": ["@babel/preset-react"]
-        }
-    },
-    "plugins": [
-        "react"
-    ],
-    "rules": {
-        "prettier/prettier": [
-            "error",
-            {
-              "endOfLine": "auto"
-            }
-        ],
-        "react/prop-types": "off",
-        "react/jsx-props-no-spreading": "off"
-    },
-    "parser": "@babel/eslint-parser"
+    "react/prop-types": "off",
+    "react/jsx-props-no-spreading": "off"
+  },
+  "parser": "@babel/eslint-parser"
 }

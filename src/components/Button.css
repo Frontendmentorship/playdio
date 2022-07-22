@@ -1,0 +1,16 @@
+.button {
+  display: block;
+  width: 100%;
+  height: 3.12rem;
+  border: none;
+  color: #fff;
+  background-color: orange;
+  border-radius: 0.3rem;
+}
+
+@media (min-width: 500px) {
+  .button {
+    max-width: 200px;
+    margin-left: auto;
+  }
+}
