@@ -1,0 +1,12 @@
+.onboard-button {
+    border: none;
+    background-color: #FF9A23;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    padding: 14px 60px;
+    color: #F2F2F2;
+    font-weight: 700;
+}

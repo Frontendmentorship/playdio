@@ -19,6 +19,7 @@
     top: 0;
     left: 0;
     padding: 10px 13px 6px;
+    pointer-events: none;
 }
 
 .onboarding.input-group > .input-group__input {
