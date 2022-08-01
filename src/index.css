@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline-color: #d67608;
 }
 
 body {
@@ -17,4 +18,49 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.onboard-form {
+  padding: 3.5625rem;
+  overflow: hidden;
+}
+
+.onboard-form > .form__header {
+  text-align: center;
+  margin-bottom: 3.5rem;
+}
+
+.onboard-form > .form__header > h2 {
+  font-weight: 400;
+  color: #313343;
+  margin: 0.5rem;
+}
+
+.onboard-form > .form__body > .input-group {
+  margin-bottom: 27px;
+}
+
+.onboard-form > .form__body > .gender-buttons {
+  margin-bottom: 1.5rem;
+}
+
+.onboard-form > .form__body > .gender-buttons > .input-group:last-child {
+  margin-left: 1rem;
+}
+
+.onboard-form > .form__body > .gender-buttons > label {
+  display: block;
+  margin-bottom: 0.6rem
+}
+
+.onboard-form > .form__body > .submit-btn-wrapper {
+  text-align: right;
+  margin-top: 2rem;
+}
+
+.onboard-form > .form__footer > p {
+  line-height: 16px;
+  color: #313343;
+  text-align: center;
+  margin-top: 54px;
 }

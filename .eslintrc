@@ -31,7 +31,33 @@
             }
         ],
         "react/prop-types": "off",
-        "react/jsx-props-no-spreading": "off"
+        "react/jsx-props-no-spreading": "off",
+        "no-nested-ternary": "off",
+        "no-useless-escape": "off",
+        "no-prototype-builtins": "off",
+        "no-underscore-dangle": "off",
+        "no-unused-expressions": "off",
+        "camelcase": "warn",
+        "no-constant-condition": "off",
+        "jsx-a11y/label-has-associated-control": [
+            "error", {
+                "required": {
+                    "some": ["nesting", "id"]
+                }
+            }
+        ],
+        "jsx-a11y/label-has-for": [
+            "error", {
+                "required": {
+                    "some": ["nesting", "id"]
+                }
+            }
+        ],
+        "react/no-this-in-sfc": "off",
+        "react/no-danger": "off",
+        "no-return-assign": "off",
+        "consistent-return": "off",
+        "react/button-has-type": "off"
     },
     "parser": "@babel/eslint-parser"
 }
