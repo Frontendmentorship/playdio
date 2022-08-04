@@ -1,0 +1,29 @@
+.recent-card {
+  display: flex;
+  padding: 15px 5px 15px 0px;
+  background-color: antiquewhite;
+}
+.recent-card-img {
+  height: 50px;
+  width: 50px;
+}
+.index-number {
+  margin-right: 15px;
+}
+.info-section {
+  display: flex;
+  width: 70vw;
+  justify-content: space-between;
+}
+.title-section {
+  display: flex;
+  justify-content: space-between;
+}
+.title-description {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+}
+.option-icon {
+  margin-left: 50px;
+}
