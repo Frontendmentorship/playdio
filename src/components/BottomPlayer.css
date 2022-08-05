@@ -1,0 +1,5 @@
+.bottom-player {
+    height: var(--bottom-player-height);
+    background-color: #331F07;
+    color: white;
+}

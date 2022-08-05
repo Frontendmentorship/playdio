@@ -1,0 +1,71 @@
+.navbar {
+    height: var(--navbar-height);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #101315;
+    color: #ffffff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2.5rem;
+}
+
+.navbar-search {
+    position: relative;
+    margin-right: 40px;
+}
+
+.navbar-search__input {
+    height: 2.8125rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 400px;
+    display: inline-block;
+    background-color: #1E1F20;
+    border: none;
+    padding: 1rem;
+    color: white;
+}
+
+.navbar-search__input:focus {
+    border: none;
+}
+
+.navbar-search__btn {
+    display: inline-block;
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.navbar-auth__btns > button {
+    padding: 12px 30px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border: none;
+}
+
+.navbar-auth__btns > button:nth-of-type(1) {
+    margin-right: 1rem;
+    background-color: transparent;
+    color: inherit;
+}
+
+.navbar-auth__btns > button:nth-of-type(2) {
+    background-color: var(--primary-color);
+    color: white;
+}

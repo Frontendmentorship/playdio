@@ -1,0 +1,21 @@
+.dashboard-layout {
+    height: 100vh;
+    position: relative;
+}
+
+.dashboard-layout__main {
+    height: calc(100vh - var(--bottom-player-height));
+    display: grid;
+    grid-template-columns: var(--sidebar-width) 1fr;
+}
+
+.dashboard-layout__wrapper {
+    position: relative;
+}
+
+.dashboard-layout__body {
+    position: relative;
+    height: calc(100% - var(--navbar-height));
+    margin-top: var(--navbar-height);
+    overflow-y: auto;
+}
