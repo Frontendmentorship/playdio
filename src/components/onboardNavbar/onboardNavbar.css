@@ -1,0 +1,35 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 50px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Inter';
+  font-size: 18px;
+}
+a:active {
+  color: #ff9a23;
+  font-weight: 700;
+}
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+.nav-links-section {
+  display: flex;
+}
+.nav-link {
+  margin-right: 20px;
+}
+
+.social-links-section {
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.social-link {
+  margin-left: 5px;
+}
