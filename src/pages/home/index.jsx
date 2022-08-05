@@ -1,11 +1,11 @@
 import React from 'react';
-import OnboardInput from '../../components/OnboardInput';
+// import OnboardInput from '../../components/OnboardInput';
+import OnboardingPage from '../onboarding/onboardingPage';
 
 function Home() {
   return (
     <div>
-      Home Page
-      <OnboardInput label="Password" />
+      <OnboardingPage />
     </div>
   );
 }
