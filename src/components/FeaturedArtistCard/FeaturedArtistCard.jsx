@@ -1,4 +1,5 @@
 import React from 'react';
+import './FeaturedArtistCard.css';
 
 export default function FeaturedArtistCard({ imgSrc, trackName, ArtistName }) {
   return (

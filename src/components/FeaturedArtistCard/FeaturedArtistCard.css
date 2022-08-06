@@ -5,6 +5,9 @@
   align-items: center;
   justify-content: center;
   background-color: #0b0b0b;
+  width: 185.11px;
+  height: 216.19px;
+  margin-right: 16px;
 }
 .track-details {
   display: flex;
@@ -17,10 +20,12 @@
   font-weight: 700;
   font-family: 'Inter', sans-serif;
   line-height: 24.2px;
+  color: white;
 }
 .artist-name {
   font-size: 16px;
   font-weight: 400;
   line-height: 19.36px;
+  color: white;
   font-family: 'Inter', sans-serif;
 }
