@@ -1,0 +1,9 @@
+.trending-song-card-container {
+  border-bottom: 1px solid white;
+  padding-bottom: 4px;
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  width: 503.03px;
+}

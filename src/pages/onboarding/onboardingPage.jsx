@@ -4,6 +4,7 @@ import OnboardNavbar from '../../components/onboardNavbar/onboardNavbar';
 import missionImg from '../../assets/mission-img.png';
 import FeaturedArtistComponent from '../../components/FeaturedArtistComponent/FeaturedArtistComponent';
 import featuredImage from '../../assets/featuredArtistImage/featured_image.png';
+import TrendingSongCard from '../../components/TrendingSongCard/TrendingSongCard';
 
 export default function OnboardingPage() {
   return (
@@ -28,6 +29,7 @@ export default function OnboardingPage() {
         </div>
       </div>
       <FeaturedArtistComponent featuredImage={featuredImage} />
+      <TrendingSongCard />
     </div>
   );
 }
