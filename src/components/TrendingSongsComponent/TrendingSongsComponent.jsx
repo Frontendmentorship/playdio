@@ -6,7 +6,10 @@ import trending02 from '../../assets/trendingSongImage/trending02.png';
 import trending03 from '../../assets/trendingSongImage/trending03.png';
 import trending04 from '../../assets/trendingSongImage/trending04.png';
 import trending05 from '../../assets/trendingSongImage/trending05.png';
-import trendingHeader from '../../assets/trending-header.png';
+import trendingHeader from '../../assets/trendingSongImage/trending-header.png';
+import trendingBig from '../../assets/trendingSongImage/trending-big.png';
+import trendingSmall1 from '../../assets/trendingSongImage/trending-small-1.png';
+import trendingSmall2 from '../../assets/trendingSongImage/trending-small-2.png';
 
 export default function TrendingSongsComponent() {
   const songData = [
@@ -65,6 +68,21 @@ export default function TrendingSongsComponent() {
               index={song.id}
             />
           ))}
+        </div>
+      </div>
+      <h2 className="jam-text-1">Jam Beautiful Songs</h2>
+      <h2 className="jam-text-2">Jam Beautiful Songs</h2>
+      <div className="trending-bottom-section">
+        <div className="trending-small-1">
+          <img className="trending-small-img" src={trendingSmall1} alt="trending-small" />
+          <div className="component-small-1-bg" />
+        </div>
+        <div className="trending-big">
+          <img src={trendingBig} alt="trending-big" />
+        </div>
+        <div className="trending-small-2">
+          <img src={trendingSmall2} alt="trending-small" />
+          <div className="component-small-2-bg" />
         </div>
       </div>
     </div>
