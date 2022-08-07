@@ -1,9 +1,51 @@
 .trending-song-card-container {
   border-bottom: 1px solid white;
-  padding-bottom: 4px;
-  padding-right: 32px;
+  padding: 2px 50px 0px 4px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   background-color: transparent;
   width: 503.03px;
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  justify-content: space-between;
+  padding-right: 16px;
+  /* background-color: black; */
+}
+.song-details-section {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.image-container {
+  margin-right: 16px;
+}
+.index {
+  font-size: 12.62px;
+  font-family: 'Inter', sans-serif;
+  margin-right: 4px;
+}
+.song-title {
+  font-size: 15.59px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+.artiste-name {
+  font-weight: 400;
+  font-size: 15.59px;
+  font-family: 'Inter', sans-serif;
+}
+.time {
+  color: white;
+  opacity: 66%;
+  font-size: 12.62px;
+}
+.options-section {
+  display: flex;
+  width: 60px;
+  justify-content: space-between;
 }
