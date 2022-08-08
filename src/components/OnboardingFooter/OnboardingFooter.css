@@ -4,7 +4,6 @@
 }
 .top-section {
   display: flex;
-  /* background-color: red; */
   justify-content: space-between;
   padding: 10px 50px;
 }
@@ -45,4 +44,7 @@
   color: #808080;
   margin-top: 20px;
   font-size: 16px;
+}
+hr {
+  border: 1px solid #656565;
 }

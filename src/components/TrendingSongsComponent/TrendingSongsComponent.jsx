@@ -72,7 +72,7 @@ export default function TrendingSongsComponent() {
         </div>
       </div>
       <h2 className="jam-text-1">Jam Beautiful Songs</h2>
-      <h2 className="jam-text-2">Jam Beautiful Songs</h2>
+      <h2 className="jam-text-2">Jam Trending Songs</h2>
       <div className="trending-bottom-section">
         <div className="trending-small-1">
           <img className="trending-small-img" src={trendingSmall1} alt="trending-small" />
