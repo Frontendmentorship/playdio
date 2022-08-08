@@ -10,6 +10,7 @@ import trendingHeader from '../../assets/trendingSongImage/trending-header.png';
 import trendingBig from '../../assets/trendingSongImage/trending-big.png';
 import trendingSmall1 from '../../assets/trendingSongImage/trending-small-1.png';
 import trendingSmall2 from '../../assets/trendingSongImage/trending-small-2.png';
+import OnboardingFooter from '../OnboardingFooter/OnboardingFooter';
 
 export default function TrendingSongsComponent() {
   const songData = [
@@ -85,6 +86,7 @@ export default function TrendingSongsComponent() {
           <div className="component-small-2-bg" />
         </div>
       </div>
+      <OnboardingFooter />
     </div>
   );
 }

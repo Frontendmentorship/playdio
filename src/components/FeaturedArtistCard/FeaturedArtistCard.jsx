@@ -4,7 +4,7 @@ import './FeaturedArtistCard.css';
 export default function FeaturedArtistCard({ imgSrc, trackName, ArtistName }) {
   return (
     <div className="featured-artist-card">
-      <div className="image-container">
+      <div className="featured-image-container">
         <img src={imgSrc} alt={`${trackName}_cover`} />
       </div>
       <div className="track-details">
