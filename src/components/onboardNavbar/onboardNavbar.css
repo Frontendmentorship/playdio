@@ -4,7 +4,6 @@
   justify-content: space-between;
   padding: 15px 50px 50px 50px;
   background-image: linear-gradient(0deg, rgba(30, 31, 32, 0) 0%, #1e1f20 100%), url(../../assets/nav-background.png);
-  /* background-color: red; */
   z-index: 10;
 }
 a {
@@ -45,4 +44,25 @@ a:hover {
 }
 .social-link {
   margin-left: 5px;
+}
+.menu-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-links-section {
+    display: none;
+  }
+  .social-links-section {
+    display: none;
+  }
+  .navbar-container {
+    padding: 10px 20px;
+  }
+  .brand-name {
+    font-size: 12px;
+  }
+  .menu-toggle {
+    display: flex;
+  }
 }

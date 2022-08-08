@@ -6,6 +6,7 @@ import { ReactComponent as TwitterLogo } from '../../assets/icons/Twitter.svg';
 import { ReactComponent as DiscordLogo } from '../../assets/icons/Discord.svg';
 import { ReactComponent as MediumLogo } from '../../assets/icons/Medium.svg';
 import { ReactComponent as FacebookLogo } from '../../assets/icons/Facebook.svg';
+import { ReactComponent as MenuToggle } from '../../assets/icons/MenuToggleOn.svg';
 
 export default function OnboardNavbar() {
   return (
@@ -46,6 +47,9 @@ export default function OnboardNavbar() {
         <Link to="medium" className="social-link">
           <MediumLogo />
         </Link>
+      </div>
+      <div className="menu-toggle">
+        <MenuToggle />
       </div>
     </div>
   );

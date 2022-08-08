@@ -8,7 +8,7 @@ import TrendingSongsComponent from '../../components/TrendingSongsComponent/Tren
 
 export default function OnboardingPage() {
   return (
-    <div>
+    <div className="onboarding-page-container">
       <div className="onboarding-top-section">
         <OnboardNavbar />
         <div className="get-started">
