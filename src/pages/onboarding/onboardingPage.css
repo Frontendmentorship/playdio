@@ -1,6 +1,7 @@
 .onboarding-top-section {
   background-image: linear-gradient(270deg, rgba(30, 31, 32, 0) 0%, #1e1f20 100%),
     url('../../assets/Onboarding_Image.png');
+  background-size: cover;
   width: 100vw;
   height: 962px;
   margin-top: 0;
@@ -79,6 +80,9 @@ body {
 }
 
 @media screen and (max-width: 480px) {
+  .onboarding-top-section {
+    height: 480px;
+  }
   .get-started {
     margin-top: 100px;
     padding: 0px 0px 0px 20px;
@@ -98,5 +102,34 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .playdio-mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mission-img {
+    position: absolute;
+    top: 420px;
+    width: 290px;
+  }
+  .mission-message {
+    width: 308px;
+    height: 230px;
+    padding: 10px 25px;
+    position: absolute;
+    top: 570px;
+    left: 26px;
+    border: 3px solid #ff9a23;
+  }
+  .top-msg {
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .bottom-msg {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 24px;
   }
 }
